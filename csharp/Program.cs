@@ -15,6 +15,7 @@ namespace csharp
             new Item {Name = "+5 Dexterity Vest", SellIn = 31, Quality = 20}, //Once the sell by date has passed, Quality degrades twice as fast (sellIn>Quality)
             new Item {Name = "+5 Dexterity Vest", SellIn = 15, Quality = 15}, //Once the sell by date has passed, Quality degrades twice as fast (sellIn=Quality)
             new Item {Name = "+5 Dexterity Vest", SellIn = 15, Quality = 50}, //starts with uality 50,should be decreased
+            new Item {Name = "+5 Dexterity Vest", SellIn = 15, Quality = -1}, //wrong entry
             
             new Item {Name = "Aged Brie", SellIn = 2, Quality = 0}, //"Aged Brie" actually increases in Quality the older it gets (0 Quality)
             new Item {Name = "Aged Brie", SellIn = -1, Quality = 30}, //"Aged Brie" actually increases in Quality the older it gets (30 Quality)
