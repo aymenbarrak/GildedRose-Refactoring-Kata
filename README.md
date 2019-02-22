@@ -14,6 +14,8 @@ Use private function to avoid code repetition.
 
 Add comments to make it clear for future developers :)
 
+# How to execute it
+
 To run this code, please open the Csharp/csharp.sln via visual studio 2015 or above.
 Once opened just click on start or press F5.
 
